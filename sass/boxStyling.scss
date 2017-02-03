@@ -1,0 +1,56 @@
+#theList {
+    height: 100px;
+    background: #51FFCE;
+    // background: -webkit-linear-gradient(#DBDDDE, #898C90);
+    // background: -moz-linear-gradient(#DBDDDE, #898C90);
+    // background: linear-gradient(#DBDDDE, #898C90);
+    border-radius: 20px;
+}
+
+#inputBox {
+    height: 300px;
+    background: #FF5F69;
+    border-radius: 20px;
+}
+// #todoInput {
+//     color: #700066;
+//     font-family: 'Montserrat', sans-serif;
+//     border-bottom: 4px solid #700066;
+// }
+
+#signUpinput {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px;
+    font-size: 60px;
+    // border-bottom: 4px solid white;
+}
+// input {
+//     border: 0;
+//     outline: 0;
+//     background: transparent;
+//     border-bottom: 4px solid white;
+// }
+
+input[type=text] {
+    height: 17px;
+    border: 0;
+    width: calc(100% - 5px);
+    margin-left: 1px;
+    box-shadow: -8px 10px 0 -7px #ebebeb, 8px 10px 0 -7px #ebebeb;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    background: transparent;
+    margin-top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    box-shadow: -8px 10px 0 -7px #4EA6EA, 8px 10px 0 -7px #4EA6EA;
+}
+
+.row-buffer2 {
+    margin-top: 20px;
+}
