@@ -1,25 +1,18 @@
 #theList {
   height: 100px;
+  border-radius: 20prx; }
+
+.hidden {
+  display: none; }
+
+#toDoList {
+  height: 100px;
   background: #51FFCE;
   border-radius: 20px; }
 
 #inputBox {
   height: 300px;
-  background: #FF5F69;
-  border-radius: 20px;
-  -webkit-transition: -webkit-transform 1s;
-  -moz-transition: -moz-transform 1s;
-  -o-transition: -o-transform 1s;
-  transition: transform 1s;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transform-origin: 50% 50%;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  border-radius: 20px; }
 
 #signUpinput {
   color: white;
@@ -32,7 +25,7 @@ input[type=text] {
   border: 0;
   width: calc(100% - 5px);
   margin-left: 1px;
-  box-shadow: -8px 10px 0 -7px #ebebeb, 8px 10px 0 -7px #ebebeb;
+  box-shadow: -8px 10px 0 -7px #FF5F69, 8px 10px 0 -7px #FF5F69;
   -webkit-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s;
   background: transparent;
@@ -42,7 +35,7 @@ input[type=text] {
 
 input[type=text]:focus {
   outline: none;
-  box-shadow: -8px 10px 0 -7px #4EA6EA, 8px 10px 0 -7px #4EA6EA; }
+  box-shadow: -8px 10px 0 -7px #FF5F69, 8px 10px 0 -7px #FF5F69; }
 
 .row-buffer2 {
   margin-top: 20px; }
